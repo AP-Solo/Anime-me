@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Quantico:ital@1&display=swap');
  
  *{
-   background-color: lightcyan;
+   background-image: url(https://github.com/AP-Solo/l-anime/blob/master/essential/css/images/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);
    font-family: Quantico, sans-serif;
    }
 
-}
+
 
 nav{
   position: relative;
@@ -32,6 +32,7 @@ nav{
     vertical-align: left;
     margin-top: 50px;
     position: relative;
+    
 
     }
 a {
@@ -40,30 +41,48 @@ a {
   height: 25px;
   float: left;
   text-transform: uppercase;
-  position: fixed;
+  position: relative;
   text-decoration: none;
+  
   }
 
-  .main-main{
-    
-  }
+                               /* END OF HEADINGS AND lOGO */
+ 
+                               /*COMMUNITY RECCOMENDATIONS*/
+
+.community{
+    background-color: rgb(3, 27, 11);
+    padding: 25px 15px 15px 25px;
+    width: 50%;
+    border: solid 1px green;
+    margin: 30px;
+    margin-left: 600px;
+    text-transform: capitalize;
+}
+
+.community h2{
+    color: aliceblue;
+}
 
  .rated{
     background-color: rgb(3, 27, 11);
     padding: 25px 15px 15px 25px;
     width: 50%;
-    background-image: url(https://unsplash.com/photos/IxDPZ-AHfoI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
+    border: solid 1px green;
+    margin: 30px;
+    text-transform: capitalize;
   }
+.rated .rated-head{
+    color: aliceblue;
+}
 
- .community{
-
-
-
-  }
 
  .watching{
-    padding: 25px;
-    text-align: left;
-    margin-right: 5px;
+    background-color: rgb(3, 27, 11);
+    padding: 25px 15px 15px 25px;
+    width: 50%;
+    border: solid 1px green;
+    margin: 30px;
+    color: aliceblue;
 
   }
