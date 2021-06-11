@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Quantico:ital@1&display=swap');
+ 
+ *{
+   background-color: lightcyan;
+   font-family: Quantico, sans-serif;
+   }
+
+}
+
+nav{
+  position: relative;
+}
+ h1 {
+     
+     text-transform: uppercase;
+     font-size: 68px;
+     color: red;
+     padding: 50px;
+     border: 1px;
+     height: 30px;
+     width: 100%;
+     text-align: center;
+     background-color: black;
+     position: relative;
+     top: 0px;
+     
+   }
+
+ .love-text{
+    color:red;
+    text-align: left;
+    vertical-align: left;
+    margin-top: 50px;
+    position: relative;
+
+    }
+a {
+  color: darkgoldenrod;
+  width: 25px;
+  height: 25px;
+  float: left;
+  text-transform: uppercase;
+  position: fixed;
+  text-decoration: none;
+  }
+
+  .main-main{
+    
+  }
+
+ .rated{
+    background-color: rgb(3, 27, 11);
+    padding: 25px 15px 15px 25px;
+    width: 50%;
+    background-image: url(https://unsplash.com/photos/IxDPZ-AHfoI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
+  }
+
+ .community{
+
+
+
+  }
+
+ .watching{
+    padding: 25px;
+    text-align: left;
+    margin-right: 5px;
+
+  }
