@@ -5,31 +5,32 @@
    margin: 25px
    }
 
-}
-
-h1 a {
+h1 {
      border-style: double;
      text-transform: uppercase;
      font-size: 68px;
      color: red;
-     padding: 100px;
+     padding: 50px;
      border: 1px;
      height: 30px;
      width: 100%;
      text-align: center;
      position: absolute;
      top: 0px;
-     font-size: 130px;
-     
+     font-size: 100px;
+     margin-right: 0 auto;
+     clear: both;
      }
+
 .nav-links a{
-    color: darkgoldenrod;
+    color: rgb(250, 177, 8);
     text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
     padding: 1px;
     margin: 1px;
+    font-weight: 700;
     
 }
 
