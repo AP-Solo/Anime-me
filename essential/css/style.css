@@ -7,7 +7,7 @@
 
 }
 
-h1 {
+h1 a {
      border-style: double;
      text-transform: uppercase;
      font-size: 68px;
@@ -21,9 +21,25 @@ h1 {
      top: 0px;
      font-size: 130px;
      
- 
-     
-   }
+     }
+.nav-links a{
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+    
+}
+
+.nav-links li:hover{
+    color:seagreen;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
 
 .love-text{
     color:red;
@@ -34,16 +50,9 @@ h1 {
     
 
     }
-a {
-  color: darkgoldenrod;
-  text-transform: uppercase;
-  text-decoration: none;
-  
-  }
-
                                /* END OF HEADINGS AND lOGO */
  
-                               /*COMMUNITY RECCOMENDATIONS*/
+                               /*MY RECCOMENDATIONS*/
 
 .community{
     background-color: rgb(3, 27, 11);
@@ -54,11 +63,13 @@ a {
     margin-left: 600px;
     text-transform: capitalize;
     margin: auto;
+    display: inline-block;
 }
 
-.community h2{
+.community h2, .rated-head, .lists li{
     color: aliceblue;
 }
+
   
  .rated{
     background-color: rgb(3, 27, 11);
