@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Quantico:ital@1&display=swap');
- 
+
  *{
-   background-image: url(https://github.com/AP-Solo/l-anime/blob/master/essential/css/images/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);
    font-family: Quantico, sans-serif;
+   margin: 25px
    }
 
-
-
-nav{
-  position: relative;
 }
- h1 {
-     
+
+h1 {
+     border-style: double;
      text-transform: uppercase;
      font-size: 68px;
      color: red;
-     padding: 50px;
+     padding: 100px;
      border: 1px;
      height: 30px;
      width: 100%;
      text-align: center;
-     background-color: black;
-     position: relative;
+     position: absolute;
      top: 0px;
+     font-size: 130px;
+     
+ 
      
    }
 
- .love-text{
+.love-text{
     color:red;
     text-align: left;
     vertical-align: left;
@@ -37,11 +36,7 @@ nav{
     }
 a {
   color: darkgoldenrod;
-  width: 25px;
-  height: 25px;
-  float: left;
   text-transform: uppercase;
-  position: relative;
   text-decoration: none;
   
   }
@@ -58,12 +53,13 @@ a {
     margin: 30px;
     margin-left: 600px;
     text-transform: capitalize;
+    margin: auto;
 }
 
 .community h2{
     color: aliceblue;
 }
-
+  
  .rated{
     background-color: rgb(3, 27, 11);
     padding: 25px 15px 15px 25px;
@@ -85,4 +81,13 @@ a {
     margin: 30px;
     color: aliceblue;
 
+  }
+
+.moments{
+    background-color: rgb(3, 27, 11);
+    padding: 25px 15px 15px 25px;
+    width: 50%;
+    border: solid 1px green;
+    margin: 30px;
+    color: aliceblue;
   }
