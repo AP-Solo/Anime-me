@@ -10,25 +10,30 @@ body{
     background-position: center center;
 
   }
-h1 {
+a{
+  text-decoration: none;
+}
+.logo{
+  line-height: 1.1;
+  display: block;
+  justify-content: center;
+  padding: 0 auto;
+  width: 100%;
+  text-decoration: none;
+}
 
+h1 {
      text-transform: uppercase;
      font-size: 100px;
-     color: rgb(173, 18, 18);
+     color: rgb(247, 243, 18);
      padding: 1px;
-     border: 1px;
-     height: 30px;
-     width: 100%;
      text-align: center;
-     position: absolute;
-     top: 0px;
-     clear: both;
-     align-content: center;
      
-     }
+     
+  }
 
 .nav-links a{
-    color: rgb(250, 177, 8);
+    color: rgb(247, 243, 18);
     text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
@@ -46,14 +51,21 @@ h1 {
 
 }
 
+.love-text-div{
+  margin: 0 auto;
+}
 
 .love-text{
-    color:rgb(250, 177, 8);
+    color:rgba(246, 250, 8, 0.993);
     text-align: center;
     clear: both;
     padding: 1px;
     align-content: center;
     font-weight: 900;
+    margin: 5px;
+    text-transform: uppercase;
+    
+    
     }
 
                                /*Club Ethos*/
@@ -160,4 +172,8 @@ footer{
   border: solid 1px green;
   color: rgb(25, 26, 27);
   bottom: 0;
+}
+
+@media and screen (max-width 1200px){
+  
 }
