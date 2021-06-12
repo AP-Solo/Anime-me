@@ -5,12 +5,17 @@
    margin: 25px
    }
 
+body{
+    background-image: url("/assets/images/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 h1 {
      border-style: double;
      text-transform: uppercase;
      font-size: 68px;
      color: red;
-     padding: 50px;
+     padding: 1px;
      border: 1px;
      height: 30px;
      width: 100%;
@@ -43,11 +48,17 @@ h1 {
 
 
 .love-text{
-    color:red;
+    color:rgb(250, 177, 8);
     text-align: left;
     vertical-align: left;
     margin-top: 50px;
     position: relative;
+    float: right;
+    margin-right: 900px;
+    margin-top: auto;
+    padding: 1px;
+    align-content: center;
+    font-weight: 900;
     
 
     }
@@ -67,7 +78,7 @@ h1 {
     display: inline-block;
 }
 
-.community h2, .rated-head, .lists li{
+.community h2, .rated-head, .lists li, h4{
     color: aliceblue;
 }
 
@@ -103,3 +114,9 @@ h1 {
     margin: 30px;
     color: aliceblue;
   }
+
+                              /*footer*/
+
+footer{
+  
+}
