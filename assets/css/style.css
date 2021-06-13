@@ -22,11 +22,7 @@ a{
   list-style: none;
   margin: 0px 0px 0px 0px;
   color: yellow;
-  display: inline-block;
   word-spacing: 5px;
-  
-  
-  
 }
 
 strong{
@@ -35,21 +31,27 @@ strong{
 
 
 .nav-links {
-    color: rgb(247, 243, 18);
+    color: rgb(255, 251, 0);
     text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
     padding: 1px;
     margin: 0px 0px 0px 30px;
     font-weight: 700;
-    width: 10%;
+    background-color: rgb(4, 78, 10);
+    width: 270px;
+   
 }
 
-.nav-links > li{
-  display: inline-block;
+nav li{
+  display: inline;
+  
+}
+nav a{
+  padding-left: 10px;
 }
 
-.nav-links li:hover{
+.nav-links a:hover{
     color:rgb(18, 235, 112);
     text-decoration: none;
     font-size: 30px;
@@ -115,8 +117,8 @@ section > p{
  .watching{
     background-color: rgb(3, 27, 11);
     padding: 25px 15px 15px 25px;
-    width: 50%;
-    height:500;
+    width: 40%;
+    height:20%;
     border: solid 1px green;
     margin: 50px 0px 20px 400px;
     color: aliceblue;
@@ -134,7 +136,7 @@ section > p{
     border: solid 1px green;
     color: aliceblue;
     height: 30%;
-    margin: 50px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
   }
   .characters{
     background-color: rgb(3, 27, 11);
@@ -194,7 +196,7 @@ footer{
    
 
    .recommendations{
-    margin: 50px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     width: 100%;
    }
 
