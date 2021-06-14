@@ -6,10 +6,11 @@
    }
 
 body{
-    background-image: url("/assets/images/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg");
+    background-image: url("/assets/images/anime-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
+    height: 100%;
     
   }
 header h1{
@@ -83,7 +84,11 @@ nav a{
     margin-left: auto;
 }
 
-.recommendations h2, .rated-head, .lists li, h4, h5{
+.recommendations h2,
+ .rated-head, 
+ .lists li,
+  h4,
+  h5{
     color: rgba(240, 248, 255, 0.849);
 }
 h5{
