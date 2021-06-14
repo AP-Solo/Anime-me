@@ -1,4 +1,4 @@
-# Love-Anime
+# Anime==Me
 A website created with the purpose of finding like-minded people of the anime community also as a short refrence to new people whom may want to get into anime. I simply share my suggestions for people who are new and to people who may have seen a little bit but would like to find something more to watch.
 
 ## Home Page
