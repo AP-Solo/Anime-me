@@ -31,6 +31,9 @@ A website created with the purpose of finding like-minded people of the anime co
  My all time favorite characters since starting anime.
 
 
+## W3C Markup Validation
+Pass all validation requirements HTML and Css
 
+## Photos
 
 
